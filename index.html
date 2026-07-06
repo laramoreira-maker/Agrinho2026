@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-    <title>agrinho</title>
-    <meta charset>"utf-8"/>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O Mundo das Abelhas</title>
+<link rel="stylesheet" href="style.css">
 </head>
+     <button id="modoEscuro">Modo Escuro</button>
+<body>
 
+     <h1>O Mundo das Abelhas</h1>
 
+    <p>As abelhas são pequenas,
+    mas desempenham um papel enorme na natureza. 
+    Elas ajudam na produção de alimentos por meio da polinização,
+    contribuem para a biodiversidade e produzem o mel.
+    Neste site você conhecerá curiosidades, 
+    espécies e descobrirá como podemos protegê-las.</p>
 
+     <h1>O que são as abelhas?</h1>
 
+    <ul>
+       <li>São insetos.</li>
+       <li>Vivem em colmeias</li>
+       <li>Existem mais de 20 mil espécies de abelhas no mundo.</li>
+       <li>Nem todas produzem mel.</li>
+       <li>Algumas vivem sozinhas, sem formar colônias.</li>
+    </ul>
+
+    <h1>A importância da polinização</h1>
+
+    <p>Quando a abelha visita uma flor para coletar néctar e pólen,
+    ela transporta o pólen para outras flores.
+    Esse processo é chamado de polinização e ajuda muitas plantas a produzirem frutos e sementes.</p>
+
+     <h2>Curiosidades</h2>
+     <ul>
+        <li>Cerca de 75% das plantas cultivadas para alimentação dependem,
+         pelo menos em parte, da polinização por animais.</li>
+        <li>Muitas frutas e hortaliças têm sua produção favorecida pelas abelhas.</li>
+     </ul>
+     
+     <h1>As ameaças às abelhas</h1>
+
+     <h3>Uso excessivo de agrotóxicos</h3>
+     <p>O uso de muitos agrotóxicos pode intoxicar as abelhas.
+     Elas podem ficar desorientadas,
+     não conseguir voltar para a colmeia ou até morrer.</p>
+     <h3>Desmatamento</h3>
+     <p>Quando as florestas são derrubadas,
+     as abelhas perdem seu habitat e os lugares onde encontram alimento e fazem suas colmeias.</p>
+    <h3>Mudanças climáticas</h3>
+    <p>As mudanças no clima alteram a época de floração das plantas e dificultam o trabalho das abelhas.
+     Temperaturas muito altas ou chuvas intensas também podem prejudicar as colmeias.</p>
+
+     <h1>Como ajudar?</h1>
+     <ul>
+        <li>Plantar flores.</li>
+        <li>Evitar matar abelhas sem necessidade.</li>
+        <li>Preservar áreas verdes.</li>
+        <li>Deixar um pequeno recipiente com água e pedras para que elas possam beber com segurança.</li>
+     </ul>
+
+    <section class="usuario">
+
+    <h2>Deixe seu nome e idade</h2>
+
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" placeholder="Digite seu nome"><br><br>
+
+    <label for="idade">Idade:</label><br>
+    <input type="number" id="idade" placeholder="Digite sua idade"><br><br>
+
+    <button onclick="mostrarMensagem()">Entrar</button>
+
+    <p id="mensagem"></p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
 </html>
